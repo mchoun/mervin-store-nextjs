@@ -12,7 +12,6 @@ export function Providers({ children }: { children: ReactNode }) {
   return (
     <PayPalScriptProvider options={initialOptions}>
       {children}
-      <PayPalButtons />
     </PayPalScriptProvider>
   )
 }
